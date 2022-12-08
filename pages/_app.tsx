@@ -9,7 +9,7 @@ const defaultFont = localFont({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={defaultFont.className}>
+    <main>
       <ChakraProvider theme={theme}>
         <Component {...pageProps} />
       </ChakraProvider>
